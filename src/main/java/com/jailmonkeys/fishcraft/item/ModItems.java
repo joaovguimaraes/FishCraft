@@ -14,7 +14,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> WORM = ITEMS.register("worm",
-            () -> new Item(new Item.Properties().tab(ItemGroup.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModItemGroup.FISHCRAFT_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
